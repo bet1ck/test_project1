@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="top__header">
+                <img class="top__header_img" src="./src/img/logo.png" alt="">
+
+                <div class="top__header_location">
+                    <select  class="top__header_location-select" name="" id="">
+                        <option>Санкт-Петербург</option>
+                    </select>
+                    <img class="top__header_location-img" src="./src/img/shevron_top.svg" alt="">
+                </div>
+
+                <ul class="top__header_menu-list">
+                    <li class="top__header_menu-item">Доставка</li>
+                    <li class="top__header_menu-item">Оплата</li>
+                    <li class="top__header_menu-item">Как заказать</li>
+                    <li class="top__header_menu-item">Контакты</li>
+                </ul>
+
+                <button class="top__header_button">
+                    заказать звонок
+                </button>
+
+                <div class="top__header_phone">
+                    <a class="top__header_phone-link" href=""><img class="top__header_phone-img" src="./src/img/phone.svg" alt=""></a>
+                    <ul class="top__header_phone_list">
+                        <li class="phone__item"><a class="phone__link" href="">8 800 775 18 78</a></li>
+                        <li class="phone__item"><a class="phone__link"href="">8 812 770 65 30</a></li>
+                    </ul>
+                </div>
+
+                <div class="top__header_check">
+                    <input class="top__header_checkbox" type="checkbox">
+                    <span class="top__header_text">Статус заказа</span>
+                </div>
+
+                <div class="top__header_wrapper">
+                    <div class="top__header_basket">
+                        <img class="top__header_basket-img" src="./src/img/basket.svg" alt="">
+                        <span></span>
+                    </div>
+                    <div class="top__header_profile">
+                        <img class="top__header_profile-img" src="./src/img/profile.svg" alt="">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__input">
+            <div class="container">
+                <div class="wrapper__header_input">
+                    <ul class="header__menu_nav">
+                        <li class="header__menu_nav-item">
+                            <span class="header__menu_nav-text">Акции</span>
+                        </li>
+                        <li class="header__menu_nav-item">
+                            <span class="header__menu_nav-text">Пионы</span>
+                            <div class="dropdown">
+                                <div class="dropdown__wrapper">
+                                    <div class="dropdown__section">
+                                        <span class="drop__section_title">Кому</span>
+                                        <ul>
+                                            <li class="dropdown__section_text">Любимой</li>
+                                            <li class="dropdown__section_text">Подруге</li>
+                                            <li class="dropdown__section_text">Начальнику</li>
+                                            <li class="dropdown__section_text">Жене</li>
+                                            <li class="dropdown__section_text">Другу</li>
+                                            <li class="dropdown__section_text">Мужской букет</li>
+                                            <li class="dropdown__section_text">Маме</li>
+                                            <li class="dropdown__section_text">Коллеге</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <span class="dropdown__section_title">По случаю</span>
+                                        <ul>
+                                            <li class="dropdown__section_text">День рождения</li>
+                                            <li class="dropdown__section_text">Татьянин день</li>
+                                            <li class="dropdown__section_text">День учителя</li>
+                                            <li class="dropdown__section_text">День Матери</li>
+                                            <li class="dropdown__section_text">Юбилей</li>
+                                            <li class="dropdown__section_text">8 марта</li>
+                                            <li class="dropdown__section_text">Выпускной</li>
+                                            <li class="dropdown__section_text">Новый год</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <span>По цене</span>
+                                        <ul>
+                                            <li class="dropdown__section_text">от 0 до 2000р</li>
+                                            <li class="dropdown__section_text">от 2000 до 3000р</li>
+                                            <li class="dropdown__section_text">от 3000 до 5000р</li>
+                                            <li class="dropdown__section_text">от 5000р</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <span>По цвету</span>
+                                        <ul>
+                                            <li class="dropdown__section_text">Красные</li>
+                                            <li class="dropdown__section_text">желтые, зеленые</li>
+                                            <li class="dropdown__section_text">Разноцветные</li>
+                                            <li class="dropdown__section_text">Белые, розовые</li>
+                                            <li class="dropdown__section_text">Оранжевые</li>
+                                            <li class="dropdown__section_text">Синие, фиолетовые</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__menu_nav-item">
+                            <span class="header__menu_nav-text">Цветы</span>
+                        </li>
+                        <li class="header__menu_nav-item">
+                            <span class="header__menu_nav-text">Розы</span>
+                        </li>
+                        <li class="header__menu_nav-item">
+                            <span class="header__menu_nav-text">Композиции</span>
+                        </li>
+                        <li class="header__menu_nav-item">
+                            <span class="header__menu_nav-text">Подарки</span>
+                        </li>
+                        <li class="header__menu_nav-item">
+                            <span class="header__menu_nav-text">Лепестки</span>
+                        </li>
+                        <li class="header__menu_nav-item">
+                            <span class="header__menu_nav-text">Ирисы</span>
+                        </li>
+                        <li class="header__menu_nav-item">
+                            <span class="header__menu_nav-text">Остальное</span>
+                        </li>
+                    </ul>
+
+                    <div class="header__input_section">
+                        <input class="header__input_search" type="text" name="" id="" placeholder="Искать по наименованию">
+                        <img class="header__input_img" src="./src/img/search.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="stage__background">
+            <div class="container">
+                <div class="container__stage">
+                    <span class="stage__title">КОРЗИНА</span>
+                    <div class="stage__wrapper">
+                        <div class="stage__inner">
+                            <div class="stage__inner_line"></div>
+                            <div class="stage__inner_number">1</div>
+                            <span class="stage__inner_text">ТОВАРЫ В КОРЗИНЕ</span>
+                        </div>
+                        <div class="stage__inner">
+                            <div class="stage__inner_line"></div>
+                            <div class="stage__inner_number">2</div>
+                            <span class="stage__inner_text">ОФОРМЛЕНИЕ ЗАКАЗА</span>
+                        </div>
+                        <div class="stage__inner">
+                            <div class="stage__inner_line"></div>
+                            <div class="stage__inner_number">3</div>
+                            <span class="stage__inner_text">ОПЛАТА ЗАКАЗА</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__block">
+                        <div class="product__inform">
+                            <img class="product__logo_img" src="./src/img/buket_cofeandmilk.svg" alt="букет">
+                            <div class="product__inner_text">
+                                <span class="product__text">букет</span>
+                                <span class="product__title">КОФЕ С МОЛОКОМ</span>
+                                <span class="product__text_inform">роза россия; гортензия (гидрангия); манус; рубус; матиола; фрезия</span>
+                            </div>
+                        </div>
+                        <img class="product__basket_img" src="./src/img/delite.svg" alt="">
+                        <div class="product__caunt">
+                            <img class="product__caunt_img-min" src="./src/img/min.svg" alt="">
+                            <div class="product__caunt_text">1</div>
+                            <img class="product__caunt_img-plus" src="./src/img/plus.svg" alt="">
+                        </div>
+                        <div class="product__inner_btn">
+                            <button class="product__btn product__btn_active">Малый</button>
+                            <button class="product__btn">Средний</button>
+                            <button class="product__btn">Большой</button>
+                        </div>
+                        <div class="product__price">
+                            <img class="product__price_fon" src="./src/img/fon_price.svg" alt="">
+                            <span class="product__price_text">4599 Р</span>
+                        </div>
+                    </div>
+
+                    <div class="product__block">
+                        <div class="product__inform">
+                            <img class="product__logo_img" src="./src/img/buket_cofeandmilk.svg" alt="букет">
+                            <div class="product__inner_text">
+                                <span class="product__text">букет</span>
+                                <span class="product__title">КОФЕ С МОЛОКОМ</span>
+                                <span class="product__text_inform">роза россия; гортензия (гидрангия); манус; рубус; матиола; фрезия</span>
+                            </div>
+                        </div>
+                        <img class="product__basket_img" src="./src/img/delite.svg" alt="">
+                        <div class="product__caunt">
+                            <img class="product__caunt_img-min" src="./src/img/min.svg" alt="">
+                            <div class="product__caunt_text">1</div>
+                            <img class="product__caunt_img-plus" src="./src/img/plus.svg" alt="">
+                        </div>
+                        <div class="product__inner_btn">
+                            <button class="product__btn product__btn_active">Малый</button>
+                            <button class="product__btn">Средний</button>
+                            <button class="product__btn">Большой</button>
+                        </div>
+                        <div class="product__price">
+                            <img class="product__price_fon" src="./src/img/fon_price.svg" alt="">
+                            <span class="product__price_text">4599 Р</span>
+                        </div>
+                    </div>
+
+                        <div class="price__inform_top">
+                            <div>
+                                <div class="inform__left_section">
+                                    <span class="inform__left_subtitle">БОНУСЫ</span>
+                                    <a class="inform__left_link" href="#">Ввести промокод</a>
+                                </div>
+                                <span class="inform__left_text">Вам будет зачислено <div class="inform__price_bonus">366 Рублей</div>
+                                    <br>(3% от стоимости заказа)</span>
+                            </div>
+                            <div>
+                                <div class="inform__right_section">
+                                    <span class="inform__right_subtitle">ИТОГО:</span>
+                                    <div class="inform__right_text">6799 Р</div>
+                                </div>
+                                <span class="inform__right_desc">*Без учёта стоимости доставки</span>
+                            </div>
+                        </div>
+
+                        <div class="price__inform_bottom">
+                            <button class="price__inform_btn-back">Вернуться к покупкам</button>
+                            <button class="price__inform_btn-forward">Оформить заказ</button>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container__element">
+                <span class="element__title">ДОБАВЬТЕ К БУКЕТУ</span>
+                <a class="element__link" href="#">Смотреть все</a>
+            </div>
+            <div class="element__block_card">
+                <div class="element__card">
+                    <img class="element__card_img" src="./src/img/add_buket.svg" alt="">
+                    <div class="element__card_status">
+                        <div class="card__status_block"><img class="card__status_img" src="./src/img/star.svg" alt=""></div>
+                        <span class="card__status_text">Новинка</span>
+                    </div>
+                    <div class="element__card_size">
+                        <div class="card__size_height">
+                            <img class="size__height_img" src="./src/img/height.svg" alt="">
+                            <span class="size__height_text">30 см</span>
+                        </div>
+                        <div class="card__size_width">
+                            <img class="size__width_img-left" src="./src/img/left_width.svg" alt="">
+                            <span class="size__width_text">45 см</span>
+                            <img class="size__width_img-right" src="./src/img/right_width.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="card__price">
+                        <div class="product__price">
+                            <img class="product__price_fon" src="./src/img/fon_price.svg" alt="">
+                            <span class="product__price_text">4599 Р</span>
+                        </div>
+                    </div>
+                    <div class="card__inform">
+                        <span class="card__inform_title">коробка</span>
+                        <span class="card__inform_subtitle">РОЗОВЫЕ РОЗЫ</span>
+                        <span class="card__inform_text">роза россия; гортензия (гидрангия); манус; рубус; матиола; фрезия</span>
+                    </div>
+                </div>
+                <div class="element__card">
+                    <img class="element__card_img" src="./src/img/add_buket.svg" alt="">
+                    <div class="element__card_status">
+                        <div class="card__status_block"><img class="card__status_img" src="./src/img/star.svg" alt=""></div>
+                        <span class="card__status_text">Новинка</span>
+                    </div>
+                    <div class="element__card_size">
+                        <div class="card__size_height">
+                            <img class="size__height_img" src="./src/img/height.svg" alt="">
+                            <span class="size__height_text">30 см</span>
+                        </div>
+                        <div class="card__size_width">
+                            <img class="size__width_img-left" src="./src/img/left_width.svg" alt="">
+                            <span class="size__width_text">45 см</span>
+                            <img class="size__width_img-right" src="./src/img/right_width.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="card__price">
+                        <div class="product__price">
+                            <img class="product__price_fon" src="./src/img/fon_price.svg" alt="">
+                            <span class="product__price_text">4599 Р</span>
+                        </div>
+                    </div>
+                    <div class="card__inform">
+                        <span class="card__inform_title">коробка</span>
+                        <span class="card__inform_subtitle">РОЗОВЫЕ РОЗЫ</span>
+                        <span class="card__inform_text">роза россия; гортензия (гидрангия); манус; рубус; матиола; фрезия</span>
+                    </div>
+                </div>
+                <div class="element__card">
+                    <img class="element__card_img" src="./src/img/add_buket.svg" alt="">
+                    <div class="element__card_status">
+                        <div class="card__status_block"><img class="card__status_img" src="./src/img/star.svg" alt=""></div>
+                        <span class="card__status_text">Новинка</span>
+                    </div>
+                    <div class="element__card_size">
+                        <div class="card__size_height">
+                            <img class="size__height_img" src="./src/img/height.svg" alt="">
+                            <span class="size__height_text">30 см</span>
+                        </div>
+                        <div class="card__size_width">
+                            <img class="size__width_img-left" src="./src/img/left_width.svg" alt="">
+                            <span class="size__width_text">45 см</span>
+                            <img class="size__width_img-right" src="./src/img/right_width.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="card__price">
+                        <div class="product__price">
+                            <img class="product__price_fon" src="./src/img/fon_price.svg" alt="">
+                            <span class="product__price_text">4599 Р</span>
+                        </div>
+                    </div>
+                    <div class="card__inform">
+                        <span class="card__inform_title">коробка</span>
+                        <span class="card__inform_subtitle">РОЗОВЫЕ РОЗЫ</span>
+                        <span class="card__inform_text">роза россия; гортензия (гидрангия); манус; рубус; матиола; фрезия</span>
+                    </div>
+                </div>
+                <div class="element__card">
+                    <img class="element__card_img" src="./src/img/add_buket.svg" alt="">
+                    <div class="element__card_status">
+                        <div class="card__status_block"><img class="card__status_img" src="./src/img/star.svg" alt=""></div>
+                        <span class="card__status_text">Новинка</span>
+                    </div>
+                    <div class="element__card_size">
+                        <div class="card__size_height">
+                            <img class="size__height_img" src="./src/img/height.svg" alt="">
+                            <span class="size__height_text">30 см</span>
+                        </div>
+                        <div class="card__size_width">
+                            <img class="size__width_img-left" src="./src/img/left_width.svg" alt="">
+                            <span class="size__width_text">45 см</span>
+                            <img class="size__width_img-right" src="./src/img/right_width.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="card__price">
+                        <div class="product__price">
+                            <img class="product__price_fon" src="./src/img/fon_price.svg" alt="">
+                            <span class="product__price_text">4599 Р</span>
+                        </div>
+                    </div>
+                    <div class="card__inform">
+                        <span class="card__inform_title">коробка</span>
+                        <span class="card__inform_subtitle">РОЗОВЫЕ РОЗЫ</span>
+                        <span class="card__inform_text">роза россия; гортензия (гидрангия); манус; рубус; матиола; фрезия</span>
+                    </div>
+                </div>
+            </div>
+            <div class="element__more">
+                <div class="element__more_text">Загрузить ещё</div>
+            </div>
+        </div>
+
+        <div class="delivery__container">
+            <div class="container">
+                <span class="delivery__title">Доставка цветов по Санкт-Петербургу</span>
+                <span class="delivery__desc">Доставка цветов по Санкт-Петербургу (СПБ), осуществляется круглосуточно по заказу с сайта или по телефону +7-812-309-38-84 в Петербурге.</span>
+
+                <ul class="delivery__list">
+                    <li class="delivery__item">
+                        <div class="delivery__item_inner">
+                            <span class="delivery__item_text">Доставка цветов в Санкт-Петербурге</span>
+                            <div class="delivery__item_block-img"><img class="delivery__item_img" src="./src/img/bottom__drpodawn.svg" alt=""></div>
+                        </div>
+                        <div class="delivery__item_strip"></div>
+                    </li>
+                    <li class="delivery__item">
+                        <div class="delivery__item_inner">
+                            <span class="delivery__item_text">УСЛОВИЯ ДОСТАВКИ цветов по россии/миру</span>
+                            <div class="delivery__item_block-img"><img class="delivery__item_img" src="./src/img/bottom__drpodawn.svg" alt=""></div>
+                        </div>
+                        <div class="delivery__item_strip"></div>
+                    </li>
+                </ul>
+
+                <ul class="delivery__list">
+                    <li class="delivery__item">
+                        <div class="delivery__item_inner">
+                            <span class="delivery__item_text">О КОМПАНИИ</span>
+                            <div class="delivery__item_block-img"><img class="delivery__item_img" src="./src/img/bottom__drpodawn.svg" alt=""></div>
+                        </div>
+                        <div class="delivery__item_strip"></div>
+                    </li>
+                    <li class="delivery__item">
+                        <div class="delivery__item_inner">
+                            <span class="delivery__item_text">срочная доставка цветов в течение трех часов</span>
+                            <div class="delivery__item_block-img"><img class="delivery__item_img" src="./src/img/bottom__drpodawn.svg" alt=""></div>
+                        </div>
+                        <div class="delivery__item_strip"></div>
+                    </li>
+                </ul>
+
+                <ul class="delivery__list">
+                    <li class="delivery__item">
+                        <div class="delivery__item_inner delivery__item_inner-bottom">
+                            <span class="delivery__item_text">УСЛОВИЯ ДОСТАВКИ/САМОвывоза цветов в петербурге</span>
+                            <div class="delivery__item_block-img"><img class="delivery__item_img" src="./src/img/bottom__drpodawn.svg" alt=""></div>
+                        </div>
+                    </li>
+                    <li class="delivery__item">
+                        <div class="delivery__item_inner delivery__item_inner-bottom">
+                            <span class="delivery__item_text">оформление офисов/кафе/ресторанов</span>
+                            <div class="delivery__item_block-img"><img class="delivery__item_img" src="./src/img/bottom__drpodawn.svg" alt=""></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer__background">
+            <div class="container">
+                <div class="footer__phone">
+                    <img class="footer__phone_img" src="./src/img/phone_footer.svg" alt="">
+                    <a class="footer__phone_link" href="8 800  775 18 78">8 800  775 18 78</a>
+                    <a class="footer__phone_link" href="+7 812 770 65 30 ">+7 812 770 65 30 </a>
+                </div>
+
+                <div class="footer__nav">
+                    <div class="footer__nav_inner footer__nav_inner-left">
+                        <ul class="footer__nav_list ">
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">О компании</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Способы оплаты</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Дисконтная карта</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">География доставки</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Акция</a></li>
+                        </ul>
+                        <ul class="footer__nav_list">
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Корпоративным клиентам</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Фотогалерея</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Отзывы клиентов</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Контакты</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Как заказать</a></li>
+                        </ul>
+                        <ul class="footer__nav_list">
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Поиск по сайту</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Договор оферты</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Наши гарантии качества</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Корзина</a></li>
+                        </ul>
+                        <ul class="footer__nav_list">
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Карта сайта</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Акции</a></li>
+                            <li class="footer__nav_item"><a class="footer__nav_link" href="">Вопрос-ответ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav_inner footer__nav_list-right">
+                        <a class="footer__nav_social-link" href=""><img class="footer__nav_img" src="./src/img/inst.svg" alt=""></a>
+                        <a class="footer__nav_social-link" href=""><img class="footer__nav_img" src="./src/img/vk.svg" alt=""></a>
+                        <a class="footer__nav_social-link" href=""><img class="footer__nav_img" src="./src/img/fb.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <span class="footer__desc">© Служба круглосуточной доставки цветов Питер-Букет, 2020</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
